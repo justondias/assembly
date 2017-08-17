@@ -11,8 +11,8 @@
 
 
 Thermometer/Potentiometer------------------
-Program converts thermometer uses ADC to display temperature in F on lcd.
-Potentiometer read by DAC increments LEDs.
+Program converts thermometer using ADC to display temperature in F on lcd.
+Potentiometer read using DAC and increments LEDs respectively.
 
 AdressingTypes.asm---------------------------------
 
@@ -21,7 +21,7 @@ Program uses Keypad and lcd screen to make HEX number guessing game.
 Randonly generates HEX value between 00 and FF shown on lcd
 User guesses and higher or lower is displayed on lcd.
 Game ends when value is correctly guessed and promts user to play again.
-Note: The correct answer will be shown in the bottom corner in this version
+Note: The correct answer will be shown in the bottom corner comment out to remove
 
 Keypad.asm-----------------------------------------
 Program integrates the keypad so when pressed, values 1-7 display as binary values by the LED's. 
